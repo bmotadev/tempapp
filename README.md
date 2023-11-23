@@ -21,6 +21,16 @@
 
 - Meu principal objetivo era aprender a consumir API no Flutter e deixar a chave da api restrita. Então busquei como fazer isso. Existia a alternativa por .env, porém na hora do build a mesma ia junto para o App. Então utilizei o --dart-define-from-file, que é um recurso relativamente novo no dart/flutter. Permitindo que o aplicativo execute usando a chave da API, sem comprometer a segurança. Tendo que configurar no launch.json. E definir qual arquivo será utilizado, no meu caso utilizei um json.
 
+- Para utilizar animações utilizei o package lottie, para usar as animações do lotties files.
+
+- Para parte de conectar na API utilizei o package HTTP
+
+- Para geolocalização foi utilizado os packages geolocator e geocoding
+
+- Em android > app > src > main > AndroidManifest.xml. Foi adicionado a solicitação de permissão para localização do usuario.
+
+- Em ios > Runner > Info.plist. Foi adicionado a solicitação de localização do usuario.
+
 Aqui na documentação do Dart pode verificar o que foi feito: https://dartcode.org/docs/using-dart-define-in-flutter/
 
 ---
